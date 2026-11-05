@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.1] - 2026-11-05
+### Changed
+- Upgraded `bunny` dependency to `~> 3.5`: topology recovery now respects
+  `no_declare: true` and no longer fails with `PRECONDITION_FAILED` on reconnect
+  for existing queues (ruby-amqp/bunny#751).
+
 ## [2.0.0] - 2026-09-23
 ### Changed
 - Upgraded `bunny` dependency to `~> 3.0`.

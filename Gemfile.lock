@@ -8,8 +8,8 @@ GIT
 PATH
   remote: .
   specs:
-    rabbit_messaging (2.0.0)
-      bunny (~> 3.0)
+    rabbit_messaging (2.0.1)
+      bunny (~> 3.5)
       kicks (>= 3.4)
       msgpack
       zlib
@@ -43,7 +43,7 @@ GEM
     base64 (0.2.0)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
-    bunny (3.4.0)
+    bunny (3.5.0)
       amq-protocol (~> 2.9)
       logger (~> 1, >= 1.7)
       openssl (>= 3.3)
